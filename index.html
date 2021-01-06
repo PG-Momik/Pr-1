@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div id="top">
@@ -67,5 +66,105 @@
         </ul>
     </div>
 </body>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, rgb(10,21,27)  , rgb(33,71,90));
+    color: white;
+    font-family: sans-serif;
+}
+#top{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+#top:hover{
+    cursor: pointer;
+}
+#left{
+    width: 50%;
+}
+#right{
+    width: 50%;
+}
+ul{
+    list-style: none;
+}
+#right ul{
+    display: flex;
+}
+#right ul li{
+    margin: 0 auto;
+}
+#container{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 2px solid springgreen;
+}
+#image-container{
+    width: 100%;
+    text-align: center;
+}
+#image{
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+}
+#bio-text{
+    width: 50%;
+}
+#bio-text p{
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 23%;
+    background-color: grey;
+    border: 2px solid springgreen;
+    box-shadow: 5px 10px #000009;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hidden{
+    visibility: hidden;
+    display: none;
+}
+#bottom{
+    font-size: 24px;
+    margin-top: 24px;
+    margin-left: 2.5%;
+    margin-right: 2.5px;
+    display: flex;
+}
+#works:hover{
+    cursor: pointer;
+}
+#bottom ul{
+    display: flex;
+}
+
+.buttons{
+    border-radius: 3px;
+    margin-left: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid white;
+}
+.buttons:hover{
+    cursor: pointer;
+}
+
+</style>
 <script src="assets/script/script.js"></script>
 </html>
